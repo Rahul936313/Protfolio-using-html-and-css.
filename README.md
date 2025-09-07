@@ -8,7 +8,7 @@ Welcome to my personal portfolio website! This project is built using only HTML 
 - About me section.
 - Skills and technologies.
 - Projects gallery.
-- Contact information
+- Contact information.
 
 ## Getting Started
 
