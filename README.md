@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This project is built using only HTML 
 
 - Responsive design for desktop and mobile devices.
 - About me section.
-- Skills and technologies
+- Skills and technologies.
 - Projects gallery
 - Contact information
 
