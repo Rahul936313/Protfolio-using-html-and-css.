@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project is built using only HTML 
 
 ## Features
 
-- Responsive design for desktop and mobile devices
+- Responsive design for desktop and mobile devices.
 - About me section.
 - Skills and technologies.
 - Projects gallery.
