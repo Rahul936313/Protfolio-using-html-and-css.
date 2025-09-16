@@ -1,78 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rahul Singh | Portfolio</title>
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rahul Singh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ===== NAVBAR ===== -->
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">Rahul<span>Singh</span></h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- ===== HERO ===== -->
-  <header class="hero">
-    <div class="container">
-      <h1>Hello, I'm <span>Rahul Singh</span></h1>
-      <p class="tagline">Web Developer • Cloud Enthusiast • Learner</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-  </header>
-
-  <!-- ===== ABOUT ===== -->
-  <section id="about" class="about container">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate developer who loves creating engaging and modern digital experiences.
-      My interests include responsive web design, cloud computing, and exploring new technologies.
-    </p>
-  </section>
-
-  <!-- ===== PROJECTS ===== -->
-  <section id="projects" class="projects container">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project card">
-        <h3>Restaurant Billing System</h3>
-        <p>A desktop-based application to manage restaurant orders and billing efficiently.</p>
+  <div class="wrap">
+    <header>
+      <div class="avatar">
+        <img src="assets/profile.jpg" alt="Rahul Singh">
       </div>
-      <div class="project card">
-        <h3>Portfolio Website</h3>
-        <p>This website built with modern HTML, CSS, and animations to showcase my skills.</p>
+      <div class="hero">
+        <h1 class="name">Rahul Singh</h1>
+        <div class="role">B.Tech CSE (AI & Data Science) • First-year | Passionate about ML, Web Dev & System Design</div>
+        <div class="links">
+          <a class="btn" href="Rahul_Singh_Resume.pdf" download>Download Resume</a>
+          <a class="ghost" href="https://github.com/Rahul936313" target="_blank">GitHub</a>
+          <a class="ghost" href="https://www.linkedin.com/in/rahul-singh-41303a323/" target="_blank">LinkedIn</a>
+        </div>
       </div>
-       <div class="project card">
-        <h3>Fake News Detection</h3>
-        <p>Aims to classify news articles, social media posts, or headlines as real or fake.</p>
-      </div>
-      
-    </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="contact container">
-    <h2>Contact</h2>
-    <p><strong>Phone:</strong> 9460309339</p>
-    <p><strong>Email:</strong> <a href="mailto:rsnr936313@gmail.com">rsnr936313@gmail.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rahul-singh-41303a323/" target="_blank">Rahul Singh</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/Rahul936313" target="_blank">Rahul936313</a></p>
-  </section>
+    <main>
+      <section class="card">
+        <h3>About Me</h3>
+        <p class="small">I am a B.Tech student specializing in AI & Data Science. I enjoy building end-to-end projects that combine machine learning with web deployment. Currently working on improving my software engineering skills and contributing to open-source projects.</p>
+      </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <p>© 2025 Rahul Singh. All rights reserved.</p>
-  </footer>
+      <section class="card grid-2">
+        <div>
+          <h3>Education</h3>
+          <p class="small"><strong>B.Tech in Computer Science & Engineering (AI & Data Science)</strong><br>Poornima University, Jaipur | 2024 – 2028</p>
+          <h3>Skills</h3>
+          <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">C</span>
+            <span class="skill">SQL</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">Streamlit</span>
+            <span class="skill">FastAPI</span>
+            <span class="skill">Git</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Machine Learning</span>
+          </div>
+        </div>
 
+        <div>
+          <h3>Certifications & Badges</h3>
+          <ul>
+            <li><a href="https://learn.microsoft.com/en-us/users/rahulsingh-3798/achievements#badges-section" target="_blank">Microsoft Achievements & Badges</a></li>
+          </ul>
+
+          <h3>Contact</h3>
+          <p class="small">Email: rsnr936313@gmail.com<br>Phone: +91-9460309339</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Projects</h3>
+        <div class="projects">
+          <div class="project">
+            <h4>Restaurant Billing System</h4>
+            <p>GUI-based billing app with automated calculations, discounts and printable bills.</p>
+            <a href="https://github.com/YOUR_GITHUB/Restaurant-billing-system-" target="_blank">View on GitHub →</a>
+          </div>
+          <div class="project">
+            <h4>Fake News Detector</h4>
+            <p>ML model using TF-IDF + Logistic Regression for classifying news as real or fake.</p>
+            <a href="https://github.com/YOUR_GITHUB/fake-news-detector" target="_blank">View on GitHub →</a>
+          </div>
+          <div class="project">
+            <h4>Password Manager</h4>
+            <p>Secure local password manager with encryption for storing credentials.</p>
+            <a href="https://github.com/YOUR_GITHUB/Passward_manager" target="_blank">View on GitHub →</a>
+          </div>
+          <div class="project">
+            <h4>Portfolio Website</h4>
+            <p>Responsive portfolio built with HTML &amp; CSS to showcase projects and links.</p>
+            <a href="https://github.com/YOUR_GITHUB/Protfolio-using-html-and-css." target="_blank">View on GitHub →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Hackathons & Achievements</h3>
+        <p class="small">• Smart India Hackathon 2025 — Participant<br>• Solved 15+ problems on coding platforms<br>• Active GitHub contributor</p>
+      </section>
+    </main>
+
+    <footer>
+      <div>Made with ❤️ • Rahul Singh</div>
+    </footer>
+  </div>
 </body>
 </html>
